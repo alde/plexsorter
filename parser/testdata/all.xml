@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MediaContainer size="4" allowSync="1" art="/:/resources/movie-fanart.jpg" identifier="com.plexapp.plugins.library" librarySectionID="3" librarySectionTitle="Unsorted" librarySectionUUID="f0e57b32-889a-4be5-9533-8c19fc6977ca" mediaTagPrefix="/system/bundle/media/flags/" mediaTagVersion="1576869286" thumb="/:/resources/video.png" title1="Unsorted" title2="All Unsorted" viewGroup="movie" viewMode="65592">
+    <Video ratingKey="85111" key="/library/metadata/85111" guid="com.plexapp.agents.none://1c9f928f1ba94ca4b71722de82ec22348ea9b22f?lang=xn" type="movie" title="black.books.s01e01.mkv" summary="" year="2020" thumb="/library/metadata/85111/thumb/1580605558" art="/library/metadata/85111/art/1580605558" duration="2387760" originallyAvailableAt="2020-01-29" addedAt="1580479414" updatedAt="1580605558" createdAtAccuracy="epoch,local" createdAtTZOffset="0">
+        <Media id="348179" duration="2387760" bitrate="2905" width="1280" height="718" aspectRatio="1.78" audioChannels="6" audioCodec="ac3" videoCodec="h264" videoResolution="720" container="mkv" videoFrameRate="24p" videoProfile="high">
+            <Part id="348548" key="/library/parts/348548/1580319930/file.mkv" duration="2387760" file="/unsorted/black.books.s01e01.mkv" size="867598549" container="mkv" videoProfile="high" />
+        </Media>
+    </Video>
+    <Video ratingKey="85096" key="/library/metadata/85096" guid="com.plexapp.agents.none://70ddb2c5a2862b074d5089e81067d420076e2e56?lang=xn" type="movie" title="black.books.s01e02.mkv" summary="" year="2020" thumb="/library/metadata/85096/thumb/1580605523" art="/library/metadata/85096/art/1580605523" duration="2967587" originallyAvailableAt="2020-01-26" addedAt="1580288453" updatedAt="1580605523" createdAtAccuracy="epoch,local" createdAtTZOffset="0">
+        <Media id="348164" duration="2967587" bitrate="3454" width="1920" height="1080" aspectRatio="1.78" audioChannels="6" audioCodec="ac3" videoCodec="h264" videoResolution="1080" container="mkv" videoFrameRate="PAL" videoProfile="high">
+            <Part id="348533" key="/library/parts/348533/1580066502/file.mkv" duration="2967587" file="/unsorted/black.books.s01e02.mkv" size="1281901644" container="mkv" videoProfile="high" />
+        </Media>
+    </Video>
+    <Video ratingKey="85127" key="/library/metadata/85127" guid="com.plexapp.agents.none://7fb9cc3cf924d187487c81d3464c61d8b9f8f87d?lang=xn" type="movie" title="black.books.s01e03.mkv" summary="" viewCount="1" lastViewedAt="1580655802" year="2020" thumb="/library/metadata/85127/thumb/1580648534" art="/library/metadata/85127/art/1580648534" duration="3494784" originallyAvailableAt="2020-01-26" addedAt="1580648530" updatedAt="1580648534" createdAtAccuracy="epoch,local" createdAtTZOffset="0">
+        <Media id="348195" duration="3494784" bitrate="5875" width="1920" height="1080" aspectRatio="1.78" audioChannels="6" audioCodec="eac3" videoCodec="h264" videoResolution="1080" container="mkv" videoFrameRate="24p" videoProfile="high">
+            <Part id="348564" key="/library/parts/348564/1580014849/file.mkv" duration="3494784" file="/unsorted/black.books.s01e03.mkv" size="2566414998" container="mkv" videoProfile="high" />
+        </Media>
+    </Video>
+    <Video ratingKey="85097" key="/library/metadata/85097" guid="com.plexapp.agents.none://cc67ce37ff1ec99b62ee7ede746b7bbaaab91079?lang=xn" type="movie" title="black.books.s01e04.mkv" summary="" year="2020" thumb="/library/metadata/85097/thumb/1580605524" art="/library/metadata/85097/art/1580605524" duration="3728544" originallyAvailableAt="2020-01-26" addedAt="1580288453" updatedAt="1580605524" createdAtAccuracy="epoch,local" createdAtTZOffset="0">
+        <Media id="348165" duration="3728544" bitrate="5818" width="1920" height="1080" aspectRatio="1.78" audioChannels="2" audioCodec="ac3" videoCodec="h264" videoResolution="1080" container="mkv" videoFrameRate="PAL" videoProfile="high">
+            <Part id="348534" key="/library/parts/348534/1579993201/file.mkv" duration="3728544" file="/unsorted/black.books.s01e04.mkv" size="2712725245" container="mkv" videoProfile="high" />
+        </Media>
+    </Video>
+</MediaContainer>

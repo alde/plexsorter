@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MediaContainer size="4" allowSync="0" identifier="com.plexapp.plugins.library" mediaTagPrefix="/system/bundle/media/flags/" mediaTagVersion="1576869286" title1="Plex Library">
+    <Directory allowSync="1" art="/:/resources/movie-fanart.jpg" composite="/library/sections/1/composite/1580612069" filters="1" refreshing="0" thumb="/:/resources/movie.png" key="1" type="movie" title="Movies" agent="com.plexapp.agents.imdb" scanner="Plex Movie Scanner" language="en" uuid="ff444084-60a7-49b2-ab65-9d431b5198eb" updatedAt="1474728209" createdAt="1464027234" scannedAt="1580612069" content="1" directory="1" contentChangedAt="5802110">
+        <Location id="1" path="/movies" />
+    </Directory>
+    <Directory allowSync="1" art="/:/resources/movie-fanart.jpg" composite="/library/sections/3/composite/1580612069" filters="1" refreshing="0" thumb="/:/resources/video.png" key="3" type="movie" title="Unsorted" agent="com.plexapp.agents.none" scanner="Plex Video Files Scanner" language="xn" uuid="f0e57b32-889a-4be5-9533-8c19fc6977ca" updatedAt="1464027278" createdAt="1464027278" scannedAt="1580612069" content="1" directory="1" contentChangedAt="5900332">
+        <Location id="3" path="/unsorted" />
+    </Directory>
+    <Directory allowSync="1" art="/:/resources/show-fanart.jpg" composite="/library/sections/2/composite/1580614478" filters="1" refreshing="0" thumb="/:/resources/show.png" key="2" type="show" title="TV Shows" agent="com.plexapp.agents.thetvdb" scanner="Plex Series Scanner" language="en" uuid="68570b73-95a9-4493-b928-9d6daa9def4c" updatedAt="1464027258" createdAt="1464027258" scannedAt="1580614478" content="1" directory="1" contentChangedAt="5900264">
+        <Location id="2" path="/tvshows" />
+    </Directory>
+</MediaContainer>

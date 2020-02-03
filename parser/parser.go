@@ -78,7 +78,7 @@ func ParseVideos(xmlValue []byte) (PlexVideos, error) {
 func ExtractSeason(filename string) (int, error) {
 	patterns := []string{
 		`.*s(\d+)e(\d+).*`, // abc.s01e01.whatever
-		`.*S(\d+)E(\d+).*`, // abc.s01e01.whatever
+		`.*S(\d+)E(\d+).*`, // abc.S01S01.whatever
 		`(\d+)x(\d+).*`,    // abc.01x01.whatever
 	}
 	for _, pattern := range patterns {

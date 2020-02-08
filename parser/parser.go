@@ -94,3 +94,23 @@ func ExtractSeason(filename string) (int, error) {
 
 	return 0, fmt.Errorf("unable to find a season in %s", filename)
 }
+
+// ExtractShowName from filename
+func ExtractShowName(filename string) (string, error) {
+	patterns := []string{
+		`(.*)\.s\d+e\d+.*`, // abc.s01e01.whatever
+		`(.*)\.S\d+E\d+.*`, // abc.S01S01.whatever
+		`(.*)\.\d+x\d+.*`,  // abc.01x01.whatever
+	}
+	for _, pattern := range patterns {
+		p, err := regexp.Compile(pattern)
+		if err != nil {
+			return "", err
+		}
+		match := p.FindStringSubmatch(filename)
+		if match != nil {
+			return match[1], nil
+		}
+	}
+	return "", fmt.Errorf("unable to extract show name from %s", filename)
+}

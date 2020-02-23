@@ -94,7 +94,7 @@ func isArchived(target, filename string) (*match, error) {
 				matches++
 			}
 		}
-		if matches > 0 {
+		if matches > 0 || (matches > 1 && len(parts) > 1) {
 			bestMatches = append(bestMatches, &match{
 				count: matches,
 				show:  directory.Name(),
@@ -104,11 +104,13 @@ func isArchived(target, filename string) (*match, error) {
 	sort.Slice(bestMatches, func(i, j int) bool {
 		return bestMatches[i].count > bestMatches[j].count
 	})
+
 	logrus.WithField("filename", filename).Debug("file name")
 	logrus.WithField("best matches", bestMatches).Debug("best matches sorted")
 	if len(bestMatches) == 0 {
 		return nil, fmt.Errorf("no shows matching %s found", filename)
 	}
+
 	return bestMatches[0], nil
 }
 
